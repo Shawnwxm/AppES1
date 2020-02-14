@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<AppES1.CanvasView  
+		android:id="@+id/canvas_view"
+		android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	/>
+	<LinearLayout 
+        android:id="@+id/ll_buttton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+     <Button
+        android:id="@+id/clear_button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="clear" />
+     <Button
+        android:id="@+id/sure_button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+         android:gravity="center"
+        android:textColor="#000000"
+        android:text="OK" />
+     <Button
+        android:id="@+id/upload_button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+         android:gravity="center"
+        android:textColor="#000000"
+        android:text="upload" />
+    </LinearLayout>
+</RelativeLayout>
