@@ -26,7 +26,7 @@ namespace AppES1
             sure_button = (Button)FindViewById(Resource.Id.sure_button);
             upload_button = (Button)FindViewById(Resource.Id.upload_button);
 
-            // 清除屏幕
+            // 清除屏幕  
             clearButton.Click += (sender, e) => { canvasView.Clean(); };
             // 上传
             upload_button.Click += (sender, e) => {
